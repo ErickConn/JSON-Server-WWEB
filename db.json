@@ -24,6 +24,25 @@
           "nivel_experiencia": "Intermediário"
         }
       }
+    },
+    {
+      "id": "abc123xyz",
+      "usuario": {
+        "id": "99999",
+        "nome": "Usuário Teste (Aluno)",
+        "email": "aluno@championsbody.com",
+        "password": "123",
+        "role": "aluno",
+        "perfil_biometrico": {
+          "peso_kg": 65.0,
+          "altura_cm": 160,
+          "idade": 22,
+          "sexo": "feminino",
+          "nivel_atividade": "leve"
+        },
+        "analise_metabolica": null,
+        "experiencia_usuario": null
+      }
     }
   ],
   "historico_usuario": [
@@ -35,6 +54,16 @@
           "semana": 1,
           "data": "2026-01-01",
           "peso_kg": 80
+        },
+        {
+          "semana": 2,
+          "data": "2026-01-10",
+          "peso_kg": 79
+        },
+        {
+          "semana": 3,
+          "data": "2026-01-17",
+          "peso_kg": 78.5
         }
       ],
       "historico_carga": [
@@ -43,14 +72,51 @@
           "treinos": [
             {
               "data": "2026-01-01",
-              "dia": "A",
-              "idPlano": "Z7EvaBsyDMo",
+              "dia": "Único",
+              "idPlano": "1712245560",
               "exercicios": [
                 {
-                  "id": "101",
-                  "dia": "A",
+                  "id": "301",
+                  "dia": "Único",
                   "concluido": true,
                   "seriesRealizadas": [
+                    {
+                      "carga": "40",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "40",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "40",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "40",
+                      "reps": "8",
+                      "concluida": true
+                    }
+                  ]
+                },
+                {
+                  "id": "101",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "25",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "25",
+                      "reps": "10",
+                      "concluida": true
+                    },
                     {
                       "carga": "25",
                       "reps": "10",
@@ -64,13 +130,500 @@
                   ]
                 }
               ]
+            },
+            {
+              "data": "2026-01-03",
+              "dia": "Único",
+              "idPlano": "1712245560",
+              "exercicios": [
+                {
+                  "id": "201",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "30",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "30",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "30",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "30",
+                      "reps": "10",
+                      "concluida": true
+                    }
+                  ]
+                },
+                {
+                  "id": "103",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "15",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "15",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "15",
+                      "reps": "12",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "semana": 2,
+          "treinos": [
+            {
+              "data": "2026-01-08",
+              "dia": "Único",
+              "idPlano": "1712245560",
+              "exercicios": [
+                {
+                  "id": "301",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "42",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "42",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "42",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "42",
+                      "reps": "8",
+                      "concluida": true
+                    }
+                  ]
+                },
+                {
+                  "id": "101",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "27",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "27",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "27",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "27",
+                      "reps": "10",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "semana": 3,
+          "treinos": [
+            {
+              "data": "2026-01-12",
+              "dia": "Único",
+              "idPlano": "1712245560",
+              "exercicios": [
+                {
+                  "id": "301",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "45",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "45",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "45",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "45",
+                      "reps": "8",
+                      "concluida": true
+                    }
+                  ]
+                },
+                {
+                  "id": "101",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "28",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "28",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "28",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "28",
+                      "reps": "10",
+                      "concluida": true
+                    }
+                  ]
+                },
+                {
+                  "id": "103",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "18",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "18",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "18",
+                      "reps": "12",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "data": "2026-01-16",
+              "dia": "Único",
+              "idPlano": "1712245560",
+              "exercicios": [
+                {
+                  "id": "201",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "32",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "32",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "32",
+                      "reps": "10",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "32",
+                      "reps": "10",
+                      "concluida": true
+                    }
+                  ]
+                },
+                {
+                  "id": "102",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "20",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "20",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "20",
+                      "reps": "12",
+                      "concluida": true
+                    }
+                  ]
+                },
+                {
+                  "id": "301",
+                  "dia": "Único",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "47",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "47",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "47",
+                      "reps": "8",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "47",
+                      "reps": "8",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "semana": 4,
+          "treinos": [
+            {
+              "data": "2026-04-09",
+              "dia": "A",
+              "idPlano": "Z7EvaBsyDMo",
+              "exercicios": [
+                {
+                  "id": "101",
+                  "dia": "A",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "1215",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "1215",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "1215",
+                      "reps": "12",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "data": "2026-04-10",
+              "dia": "B",
+              "idPlano": "Z7EvaBsyDMo",
+              "exercicios": [
+                {
+                  "id": "101",
+                  "dia": "B",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "13",
+                      "reps": "13",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "13",
+                      "reps": "13",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "13",
+                      "reps": "13",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "semana": 16,
+          "treinos": [
+            {
+              "data": "2026-04-16",
+              "dia": "A",
+              "idPlano": "vEcgSUyFfyk",
+              "exercicios": [
+                {
+                  "id": "101",
+                  "dia": "A",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "15",
+                      "reps": "15",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "data": "2026-04-16",
+              "dia": "A",
+              "idPlano": "Z7EvaBsyDMo",
+              "exercicios": [
+                {
+                  "id": "101",
+                  "dia": "A",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "18",
+                      "reps": "-318",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "18",
+                      "reps": "18",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "18",
+                      "reps": "18",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "data": "2026-04-16",
+              "dia": "B",
+              "idPlano": "Z7EvaBsyDMo",
+              "exercicios": []
+            }
+          ]
+        }
+      ],
+      "userId": "12345"
+    },
+    {
+      "id": "99999",
+      "nivel_atividade": "leve",
+      "historico_peso": [
+        {
+          "semana": 1,
+          "data": "2026-04-10",
+          "peso_kg": 66.0
+        },
+        {
+          "semana": 2,
+          "data": "2026-04-17",
+          "peso_kg": 65.0
+        }
+      ],
+      "historico_carga": [
+        {
+          "semana": 16,
+          "treinos": [
+            {
+              "data": "2026-04-16",
+              "dia": "A",
+              "idPlano": "vEcgSUyFfyk",
+              "exercicios": [
+                {
+                  "id": "101",
+                  "dia": "A",
+                  "concluido": true,
+                  "seriesRealizadas": [
+                    {
+                      "carga": "10",
+                      "reps": "12",
+                      "concluida": true
+                    },
+                    {
+                      "carga": "10",
+                      "reps": "10",
+                      "concluida": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "userId": "99999"
+    }
+  ],
+  "planos": [
+    {
+      "id": "1712245560",
+      "titulo": "Meu Treino de Verão",
+      "ativo": false,
+      "nivel": "Avançado",
+      "categoria": "personalizado",
+      "isCustom": true,
+      "rotina": [
+        {
+          "dia": "Único",
+          "ativo": false,
+          "foco": "Full Body",
+          "exercicios": [
+            {
+              "id": 301,
+              "nome": "Agachamento",
+              "seriesPadrao": 4,
+              "repsPadrao": 8
             }
           ]
         }
       ]
-    }
-  ],
-  "planos": [
+    },
     {
       "id": "Z7EvaBsyDMo",
       "titulo": "Teste123",
@@ -87,9 +640,35 @@
               "nivel_experiencia": "Intermediário",
               "seriesPadrao": 3,
               "repsPadrao": 12
+            },
+            {
+              "id": "102",
+              "nome": "Crucifixo Inclinado",
+              "grupo": "Peito",
+              "equipamento": "Halteres",
+              "nivel_experiencia": "Iniciante",
+              "seriesPadrao": 4,
+              "repsPadrao": 12
             }
           ],
           "id": "1776358169465",
+          "ativo": false
+        },
+        {
+          "dia": "B",
+          "foco": "Treino B",
+          "exercicios": [
+            {
+              "id": "201",
+              "nome": "Puxada Frontal",
+              "grupo": "Costas",
+              "equipamento": "Máquina",
+              "nivel_experiencia": "Iniciante",
+              "seriesPadrao": 4,
+              "repsPadrao": 12
+            }
+          ],
+          "id": "1776358174171",
           "ativo": false
         }
       ],
@@ -105,6 +684,37 @@
       "activeDayByUser": {
         "12345": "A"
       }
+    },
+    {
+      "id": "vEcgSUyFfyk",
+      "titulo": "Teste1234",
+      "rotina": [
+        {
+          "dia": "A",
+          "foco": "Treino A",
+          "exercicios": [
+            {
+              "id": "101",
+              "nome": "Supino Reto",
+              "grupo": "Peito",
+              "equipamento": "Barra",
+              "nivel_experiencia": "Intermediário",
+              "seriesPadrao": 1,
+              "repsPadrao": 12
+            }
+          ],
+          "id": "1776358412659",
+          "ativo": false
+        }
+      ],
+      "isPreview": false,
+      "ativo": false,
+      "isCustom": true,
+      "nivel": "Iniciante",
+      "categoria": "modelo",
+      "userId": "12345",
+      "activeUserIds": {},
+      "activeDayByUser": {}
     }
   ],
   "biblioteca_exercicios": [
@@ -114,7 +724,83 @@
       "grupo": "Peito",
       "equipamento": "Barra",
       "nivel_experiencia": "Intermediário"
+    },
+    {
+      "id": "102",
+      "nome": "Crucifixo Inclinado",
+      "grupo": "Peito",
+      "equipamento": "Halteres",
+      "nivel_experiencia": "Iniciante"
+    },
+    {
+      "id": "103",
+      "nome": "Tríceps Corda",
+      "grupo": "Tríceps",
+      "equipamento": "Polia",
+      "nivel_experiencia": "Iniciante"
+    },
+    {
+      "id": "201",
+      "nome": "Puxada Frontal",
+      "grupo": "Costas",
+      "equipamento": "Máquina",
+      "nivel_experiencia": "Iniciante"
+    },
+    {
+      "id": "202",
+      "nome": "Rosca Direta",
+      "grupo": "Bíceps",
+      "equipamento": "Halteres",
+      "nivel_experiencia": "Iniciante"
+    },
+    {
+      "id": "301",
+      "nome": "Agachamento",
+      "grupo": "Pernas",
+      "equipamento": "Barra",
+      "nivel_experiencia": "Avançado"
+    },
+    {
+      "id": "302",
+      "nome": "Desenvolvimento Militar",
+      "grupo": "Ombros",
+      "equipamento": "Barra",
+      "nivel_experiencia": "Intermediário"
+    },
+    {
+      "id": "401",
+      "nome": "Elevação Lateral",
+      "grupo": "Ombros",
+      "equipamento": "Halteres",
+      "nivel_experiencia": "Iniciante"
+    },
+    {
+      "id": "402",
+      "nome": "Afundo",
+      "grupo": "Pernas",
+      "equipamento": "Peso Corporal",
+      "nivel_experiencia": "Iniciante"
+    },
+    {
+      "id": "403",
+      "nome": "Remada Curvada",
+      "grupo": "Costas",
+      "equipamento": "Barra",
+      "nivel_experiencia": "Intermediário"
+    },
+    {
+      "id": "501",
+      "nome": "Rosca Martelo",
+      "grupo": "Bíceps",
+      "equipamento": "Halteres",
+      "nivel_experiencia": "Iniciante"
+    },
+    {
+      "id": "502",
+      "nome": "Levantamento Terra",
+      "grupo": "Costas",
+      "equipamento": "Barra",
+      "nivel": "Avançado"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
